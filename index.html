@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Love calculator</title>
+</head>
+<body>
+    <header>
+        <div class="card w-50 m-auto text-center ">
+            <div class="card-header bg-danger text-white">LOVE CALCULATOR</div>
+            <div class="card-body">
+             <form class="form-inline w-75 m-auto">
+              <div class="form-group">
+               <input type="text" class="form-control text-center" placeholder="Enter Your Name" id="name" >
+              </div>
+              <div class="pl-4 pr-4">
+               <span> + </span>
+              </div>
+              <div class="form-group">
+               <input type="text" class="form-control text-center" placeholder="Enter Crush's Name" id="cname">
+              </div>
+             </form> <br>
+              <div class="w-70 m-auto">
+               <button  class="btn btn-primary mb-2" type="submit" onclick="checkLove()"> Calculate </button>
+              </div>
+              <br>
+              <div>
+                <input type="text" name="" placeholder="LOVE %" class="form-control text-center w-25 m-auto" id="lovevalue">
+              </div>
+            </div> 
+            <div class="card-footer bg-light" id="recom">Recommendation</div>
+          </div>
+    </header>
+    <script src="main.js"></script>
+</body>
+</html>
